@@ -249,6 +249,18 @@
       .reveal { opacity: 1; transform: none; }
       #field { display: none; }
     }
+    /* Keep the scroll indicator away from hero text */
+.scroll-cue {
+  left: 50%;
+  right: auto;
+  bottom: 24px;
+  transform: translateX(-50%);
+}
+
+.hero-content {
+  width: min(calc(100% - var(--gutter) * 2), 1440px);
+  padding-bottom: 80px;
+}
   </style>
 </head>
 <body>
